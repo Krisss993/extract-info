@@ -114,4 +114,4 @@ if review_input:
 
     key_data_extraction = llm.invoke(prompt_with_review)
     st.write(type(key_data_extraction))
-    st.write(key_data_extraction)
+    st.write(key_data_extraction.content)
