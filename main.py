@@ -112,6 +112,6 @@ if review_input:
         review=review_input
     )
 
-    key_data_extraction = llm.invoke(prompt_with_review)
+    key_data_extraction = llm.invoke(prompt_with_review.content)
 
     st.write(key_data_extraction)
